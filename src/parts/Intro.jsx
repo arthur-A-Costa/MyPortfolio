@@ -1,6 +1,6 @@
 function Intro() {
   return (
-  <section id="intro" className="py-20 px-10 bg-slate-50 dark:bg-slate-900 rounded-xl shadow-sm">
+  <section id="Intro" className="scroll-mt-24 py-130 px-10">
   <h1 className="text-5xl font-extrabold text-slate-900 dark:text-white mb-4">
     Hello, I am Arthur Ardilha da Costa!
   </h1>
