@@ -32,12 +32,12 @@ function Navbar() {
 
         {/* Navigation Links */}
         <div className="flex gap-6 text-sm font-medium text-slate-600 dark:text-slate-300 transition-colors">
-          <a href="#Intro" className="hover:text-blue-600 transition-colors">Home</a>
-          <a href="#About" className="hover:text-blue-600 transition-colors">About</a>
-          <a href="#Skills" className="hover:text-blue-600 transition-colors">Skills</a>
-          <a href="#Experience" className="hover:text-blue-600 transition-colors">Experience</a>
-          <a href="#Projects" className="hover:text-blue-600 transition-colors">Projects</a>
-          <a href="#Contact" className="hover:text-blue-600 transition-colors">Contact</a>
+          <a href="#Intro" className="hover:text-violet-400 transition-colors">Home</a>
+          <a href="#About" className="hover:text-violet-400 transition-colors">About</a>
+          <a href="#Skills" className="hover:text-violet-400 transition-colors">Skills</a>
+          <a href="#Experience" className="hover:text-violet-400 transition-colors">Experience</a>
+          <a href="#Projects" className="hover:text-violet-400 transition-colors">Projects</a>
+          <a href="#Contact" className="hover:text-violet-400 transition-colors">Contact</a>
         </div>
 
       </div>
