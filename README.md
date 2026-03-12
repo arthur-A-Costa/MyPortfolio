@@ -6,4 +6,4 @@ React + Vite: Leveraged for a fast, modern development environment and optimized
 
 Tailwind CSS v4: Utilized for custom theme configuration and a highly responsive, "mobile-first" layout.
 
-##Status: In Development. > I am currently refining the UI and adding my latest project documentations.
+### Status: In Development. > I am currently refining the UI and adding my latest project documentations.
