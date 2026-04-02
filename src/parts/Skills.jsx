@@ -39,12 +39,12 @@ function Skills() {
           <div 
             key={index}
             className="flex items-center gap-4 p-5 w-60
-           bg-violet-400/20 backdrop-blur-md
-           border border-violet-300/40
-           shadow-[inset_0_1px_0_rgba(255,255,255,0.15),0_0_12px_rgba(139,92,246,0.15)]
+           bg-violet-500/15 backdrop-blur-md
+           border border-violet-500/50
+           shadow-[inset_0_1px_0_rgba(255,255,255,0.15),0_0_12px_rgba(139,92,246,0.25)]
            rounded-xl
-           hover:scale-105 hover:border-violet-400/70 hover:bg-violet-500/30
-           hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.2),0_0_16px_rgba(139,92,246,0.3)]
+           hover:scale-105 hover:border-violet-500/80 hover:bg-violet-500/25
+           hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.2),0_0_16px_rgba(139,92,246,0.4)]
            transition-all duration-300 group cursor-default"
           >
             <div className={`text-3xl ${skill.color} group-hover:drop-shadow-[0_0_8px_rgba(59,130,246,0.5)]`}>

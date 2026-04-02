@@ -2,6 +2,7 @@ import Intro from './parts/Intro.jsx'
 import Navbar from './parts/Navbar.jsx'
 import Aboutme from './parts/Aboutme.jsx'
 import Skills from './parts/Skills.jsx';
+import Projects from './parts/Projects.jsx';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Intro />
         <Aboutme />
         <Skills />
+        <Projects />
       </main>
     </div>
   );
