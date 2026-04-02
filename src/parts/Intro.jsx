@@ -12,7 +12,7 @@ function Intro() {
       </h1>
   <p className="mt-8 text-xl text-slate-600 dark:text-slate-300 max-w-2xl leading-relaxed">
     I am a second-year computer science student at the University of South Florida. 
-    My main interests are cybersecurity, data science, and web development.
+    My main interests are cybersecurity, data science, and full-stack development.
   </p>
   </section>
   )

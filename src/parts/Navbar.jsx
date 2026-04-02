@@ -6,8 +6,8 @@ function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      // If the user scrolls down more than 50px, change the state
-      setIsScrolled(window.scrollY > 50);
+      // If the user scrolls down more than 80% of the viewport height, change the state
+      setIsScrolled(window.scrollY > window.innerHeight * 0.1);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -35,7 +35,7 @@ function Navbar() {
           <a href="#Intro" className="hover:text-violet-400 transition-colors">Home</a>
           <a href="#About" className="hover:text-violet-400 transition-colors">About</a>
           <a href="#Skills" className="hover:text-violet-400 transition-colors">Skills</a>
-          <a href="#Experience" className="hover:text-violet-400 transition-colors">Experience</a>
+          {/* <a href="#Experience" className="hover:text-violet-400 transition-colors">Experience</a> */}
           <a href="#Projects" className="hover:text-violet-400 transition-colors">Projects</a>
           <a href="#Contact" className="hover:text-violet-400 transition-colors">Contact</a>
         </div>
