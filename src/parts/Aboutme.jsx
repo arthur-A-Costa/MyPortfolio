@@ -25,12 +25,16 @@ function Aboutme() {
           
           <p className="text-neutral-400 text-lg leading-relaxed">
             I am a high-achieving student at the University of South Florida. 
-            Currently, I balance my academic rigor with leadership as a Resident Assistant.
+            Currently, I balance my academic rigor with my positions as a Software Tech Lead for IEEE CS chapter at USF and Tech Specialist for the BRASA Connect Team.
           </p>
 
           <p className="text-neutral-400 text-lg leading-relaxed">
             I'm passionate about building secure, data-driven applications. My experience 
-            ranges from C++ data structures to modern web development with React.
+            ranges from multi-agentic development with langchain, to modern web development with React.
+          </p>
+
+          <p className="text-neutral-400 text-lg leading-relaxed">
+            I am always looking for new opportunities to grow and get involved with new projects and positions that can help me grow as a developer and as a person.
           </p>
         </div>
 

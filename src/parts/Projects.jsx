@@ -1,5 +1,6 @@
 import { SiGithub } from "react-icons/si";
 import portfolioImg from '/ThisPortfolio.png';
+import NovaBayImg from '/NovaBayMenu.jpg';
 
 const projects = [
   {
@@ -14,14 +15,28 @@ const projects = [
     title: "RentEscrow",
     description: "A short description of what this project does, the problem it solves, and what you learned from building it.",
     tags: ["Python", "FastAPI", "Solidity"],
-    github: "https://github.com/yourusername/your-repo",
+    github: "https://github.com/TarikCO/RentEscrow",
   },
   {
-    image: null,
+    image: NovaBayImg,
     title: "NovaBay",
     description: "A short description of what this project does, the problem it solves, and what you learned from building it.",
     tags: ["SQL", "Supabase", "React", "JavaScript", "Vite", "HTML"],
-    github: "https://github.com/yourusername/your-repo",
+    github: "https://github.com/TarikCO/NovaBay",
+  },
+  {
+    image: null,
+    title: "LLM_Agentic_Banking_Chatbot",
+    description: "A short description of what this project does, the problem it solves, and what you learned from building it.",
+    tags: ["SQL", "Ollama", "LangChain", "LangGraph", "MCP server", "Python", "FastAPI", "Docker"],
+    github: "https://github.com/arthur-A-Costa/LLM_Agentic_Banking_Chatbot",
+  },
+  {
+    image: null,
+    title: "Data-Warehouse-Lakehouse-ETL-Project",
+    description: "A short description of what this project does, the problem it solves, and what you learned from building it.",
+    tags: ["SQL", "PostgreSQL", "Python", "Docker", "Apache Spark", "FastAPI", "Apache Airflow", "Apache Iceberg", "MinIO", "Python"],
+    github: "https://github.com/arthur-A-Costa/Data-Warehouse-Lakehouse-ETL-Project",
   },
 ];
 
@@ -75,31 +90,29 @@ function Projects() {
                 </p>
               </div>
 
-              {/* Bottom row: tags left, github right */}
-              <div className="flex flex-wrap items-center justify-between gap-2 mt-4">
+              {/* Bottom Row: Badges on left, Button pinned right */}
+              <div className="mt-6 flex items-end justify-between gap-4">
+                {/* Tech Badges Container */}
                 <div className="flex flex-wrap gap-2">
-                  {project.tags.map((tag, i) => (
-                    <span
-                      key={i}
-                      className="text-xs px-3 py-1 rounded-full bg-violet-500/20
-                                 border border-violet-400/30 text-violet-300 font-medium"
+                  {project.tags.map((tag, idx) => (
+                    <span 
+                      key={idx} 
+                      className="text-xs px-2.5 py-1 rounded-full bg-white/5 border border-white/10 text-neutral-300"
                     >
                       {tag}
                     </span>
                   ))}
                 </div>
 
+                {/* View Repo Button */}
                 <a
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 px-3 py-1 rounded-full
-                             bg-violet-500/20 border border-violet-400/30 text-violet-300
-                             hover:bg-violet-500/40 hover:border-violet-400/60
-                             transition-all duration-300 text-xs font-medium"
+                  className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-white/10 hover:bg-white/20 border border-white/10 text-xs font-medium text-white transition-all shrink-0 ml-auto"
                 >
-                  <SiGithub className="text-base" />
-                  View Repo
+                  <SiGithub size={14} />
+                  <span>View Repo</span>
                 </a>
               </div>
             </div>

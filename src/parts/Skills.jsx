@@ -2,8 +2,10 @@ import {
   SiPython, SiCplusplus, SiC, SiJavascript, SiReact, 
   SiHtml5, SiTailwindcss, SiNodedotjs, 
   SiGit, SiGithub, SiSupabase, SiFirebase, 
-  SiPostgresql, SiDjango, SiFastapi
+  SiPostgresql, SiFastapi, SiDocker, SiApachespark, 
+  SiOllama, SiLangchain, SiLanggraph,
 } from "react-icons/si";
+import { TbSql } from "react-icons/tb";
 import { DiCss3 } from "react-icons/di";
 import { FaAws } from "react-icons/fa";
 
@@ -23,9 +25,15 @@ function Skills() {
     { name: "AWS", icon: <FaAws />, color: "text-[#FF9900]" },
     { name: "Supabase", icon: <SiSupabase />, color: "text-[#3ECF8E]" },
     { name: "Firebase", icon: <SiFirebase />, color: "text-[#FFCA28]" },
-    { name: "SQL", icon: <SiPostgresql />, color: "text-[#336791]" },
-    { name: "Django", icon: <SiDjango />, color: "text-[#092E20]" },
+    { name: "SQL", icon: <TbSql />, color: "text-[#336791]" },
+    { name: "PostgreSQL", icon: <SiPostgresql />, color: "text-[#336791]" },
     { name: "FastAPI", icon: <SiFastapi />, color: "text-[#009688]" },
+    { name: "Docker", icon: <SiDocker />, color: "text-[#2496ED]" },
+    { name: "Apache Spark", icon: <SiApachespark />, color: "text-[#E25A1C]" },
+    { name: "Ollama", icon: <SiOllama />, color: "text-[#FF6B6B]" },
+    { name: "LangChain", icon: <SiLangchain />, color: "text-[#339933]" },
+    { name: "LangGraph", icon: <SiLanggraph />, color: "text-[#FF9900]" },
+
   ];
 
   return (
