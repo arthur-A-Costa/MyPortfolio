@@ -5,9 +5,10 @@
   /* Tells Tailwind to use these fonts when you use 'font-sans' or 'font-mono' */
   --font-sans: "Inter", ui-sans-serif, system-ui;
   --font-mono: "JetBrains Mono", monospace;
-  --appearance-strategy: selector;
+  /* --appearance-strategy: selector; */
 }
 
 html {
   scroll-behavior: smooth;
+  color-scheme: dark;
 }

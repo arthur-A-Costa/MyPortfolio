@@ -7,7 +7,7 @@ import Contact from './parts/Contact.jsx';
 
 function App() {
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-neutral-950 font-mono">
+    <div className="min-h-screen bg-neutral-950 font-mono">
       <Navbar />
       <main className="max-w-6xl mx-auto px-4 font-sans w-full">
         <Intro />
@@ -19,5 +19,7 @@ function App() {
     </div>
   );
 }
+
+/* bg-slate-50 dark: bg-neutral-950 */
 
 export default App

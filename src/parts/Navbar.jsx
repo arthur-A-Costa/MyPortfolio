@@ -19,19 +19,19 @@ function Navbar() {
       
       <div className={`transition-all duration-500 flex items-center justify-between px-8
         ${isScrolled 
-          ? 'w-[95%] max-w-5xl bg-white/70 dark:bg-neutral-900/80 backdrop-blur-lg rounded-full shadow-2xl border border-slate-200/50 dark:border-neutral-800 h-16' 
+          ? 'w-[95%] max-w-5xl bg-neutral-900/80 backdrop-blur-lg rounded-full shadow-2xl border border-neutral-800 h-16' 
           : 'w-full max-w-[98%] bg-transparent h-24 border-none'}`}>
         
         {/* Logo Section */}
         <div className="flex items-center gap-2">
           <img src={logo} alt="Arthur Logo" className="h-10 w-auto" />
-          <span className="font-bold text-xl text-slate-900 dark:text-white hidden sm:block">
+          <span className="font-bold text-xl text-white hidden sm:block">
             Arthur Ardilha da Costa's Portfolio
           </span>
         </div>
 
         {/* Navigation Links */}
-        <div className="flex gap-6 text-sm font-medium text-slate-600 dark:text-slate-300 transition-colors">
+        <div className="flex gap-6 text-sm font-medium text-slate-300 transition-colors">
           <a href="#Intro" className="hover:text-violet-400 transition-colors">Home</a>
           <a href="#About" className="hover:text-violet-400 transition-colors">About</a>
           <a href="#Skills" className="hover:text-violet-400 transition-colors">Skills</a>
@@ -44,5 +44,10 @@ function Navbar() {
     </nav>
   );
 }
+
+/* bg-white/70 dark:
+   border-slate-200/50 dark:
+   text-slate-900 dark:
+   text-slate-600 dark:*/
 
 export default Navbar;

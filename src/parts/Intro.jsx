@@ -10,12 +10,14 @@ function Intro() {
           Arthur Ardilha da Costa
         </a>
       </h1>
-  <p className="mt-8 text-xl text-slate-600 dark:text-slate-300 max-w-2xl leading-relaxed">
+  <p className="mt-8 text-xl text-slate-300 max-w-2xl leading-relaxed">
     I am a third-year computer science student at the University of South Florida. 
     My main interests are cybersecurity, data science, and full-stack development.
   </p>
   </section>
   )
 }
+
+/* text-slate-600 dark: */
 
 export default Intro;

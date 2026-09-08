@@ -1,6 +1,8 @@
 import { SiGithub } from "react-icons/si";
 import portfolioImg from '/ThisPortfolio.png';
 import NovaBayImg from '/NovaBayMenu.jpg';
+import LlmAgenticImg from '/Image_Banking_Chat_Project.jpeg';
+import DataEngineeringImg from '/Data_Engineering_Project_Img.png'; 
 
 const projects = [
   {
@@ -11,32 +13,32 @@ const projects = [
     github: "https://github.com/arthur-A-Costa/MyPortfolio",
   },
   {
+    image: LlmAgenticImg,
+    title: "LLM_Agentic_Banking_Chatbot",
+    description: "A multi-agentic banking chatbot focused on customer support. It utilizes specialized agents, intelligent routing, persisten conversation memory, evaluation pipeline, and tool based data retrieval to answer questions and recommend products. It demonstrates knowledge of agent orchestration, structured data access and retrieval, and RAG (Retrieval-Augmented Generation) techniques.",
+    tags: ["SQL", "Ollama", "LangChain", "LangGraph", "MCP server", "Python", "FastAPI", "Docker", "EXA", "RAG", "Docling", "PGVector", "PostgreSQL", "Streamlit"],
+    github: "https://github.com/arthur-A-Costa/LLM_Agentic_Banking_Chatbot",
+  },
+  {
+    image: DataEngineeringImg,
+    title: "Data-Warehouse-Lakehouse-ETL-Project",
+    description: "An end-to-end data engineering pipeline project that simulates the complete extraction, transformation, and loading (ETL) process, combining the integration of both a data warehouse and a data lakehouse architecture. The project applies historical change management, Star Schema design, and Medallion architecture to create a complete data engineering solution for scalable analytics.",
+    tags: ["SQL", "PostgreSQL", "Python", "Docker", "Apache Spark", "FastAPI", "Apache Airflow", "Apache Iceberg", "MinIO"],
+    github: "https://github.com/arthur-A-Costa/Data-Warehouse-Lakehouse-ETL-Project",
+  },
+  {
     image: null,
     title: "RentEscrow",
-    description: "A short description of what this project does, the problem it solves, and what you learned from building it.",
+    description: "Engineered a decentralized rental escrow application as a Hackathon Finalist at Brasa Connect Code & Croak 2026. Built custom Solidity smart contracts for automated security deposit management, integrating FastAPI and GoPlus security checks to protect multi-party transactions against fraudulent signatures and contract exploits.",
     tags: ["Python", "FastAPI", "Solidity"],
     github: "https://github.com/TarikCO/RentEscrow",
   },
   {
     image: NovaBayImg,
     title: "NovaBay",
-    description: "A short description of what this project does, the problem it solves, and what you learned from building it.",
+    description: "Winner project of the 2026 HackUSF Climate Teach-In Sustainability Challenge. NovaBay is a coastal resilience GIS platform visualizing Tampa Bay environmental risk data. Implemented high-performance spatial mapping layers using MapLibre and deck.gl over a PostGIS-backed API to deliver real-time flood zone analyses and vulnerability metrics.",
     tags: ["SQL", "Supabase", "React", "JavaScript", "Vite", "HTML"],
     github: "https://github.com/TarikCO/NovaBay",
-  },
-  {
-    image: null,
-    title: "LLM_Agentic_Banking_Chatbot",
-    description: "A short description of what this project does, the problem it solves, and what you learned from building it.",
-    tags: ["SQL", "Ollama", "LangChain", "LangGraph", "MCP server", "Python", "FastAPI", "Docker"],
-    github: "https://github.com/arthur-A-Costa/LLM_Agentic_Banking_Chatbot",
-  },
-  {
-    image: null,
-    title: "Data-Warehouse-Lakehouse-ETL-Project",
-    description: "A short description of what this project does, the problem it solves, and what you learned from building it.",
-    tags: ["SQL", "PostgreSQL", "Python", "Docker", "Apache Spark", "FastAPI", "Apache Airflow", "Apache Iceberg", "MinIO", "Python"],
-    github: "https://github.com/arthur-A-Costa/Data-Warehouse-Lakehouse-ETL-Project",
   },
 ];
 

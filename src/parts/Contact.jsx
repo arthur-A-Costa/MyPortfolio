@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { SiGithub, SiGmail } from "react-icons/si";
-import { Copy, Check, MapPin } from "lucide-react";
+import { Copy, Check, MapPin, Send, FileDown } from "lucide-react";
 import { FaLinkedin, } from "react-icons/fa6";
 
 function Contact() {
@@ -61,6 +61,16 @@ function Contact() {
             <MapPin size={16} className="text-violet-400 shrink-0" />
             <span>Tampa, FL • University of South Florida</span>
           </div>
+
+          {/* Resume Download Button */}
+            <a
+              href="/Arthur_Ardilha_daCosta_Resume.pdf"
+              download="Arthur_Ardilha_daCosta_Resume.pdf"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-white bg-white/5 border border-white/10 hover:bg-violet-500 font-medium text-xs transition-all duration-200 hover:shadow-lg hover:shadow-violet-600/30 cursor-pointer"
+            >
+              <FileDown size={15} />
+              <span>Download My Resume</span>
+            </a>
         </div>
 
         {/* Contact Information & Copy Row */}
